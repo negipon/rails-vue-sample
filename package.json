@@ -1,8 +1,13 @@
 {
   "name": "sample",
   "private": true,
+  "scripts": {
+    "start:dev": "webpack-dev-server"
+  },
   "dependencies": {
     "@rails/webpacker": "3.5",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
     "vue": "^2.5.17",
     "vue-loader": "14.2.2",
     "vue-template-compiler": "^2.5.17"

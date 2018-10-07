@@ -1,20 +1,19 @@
-<template>
-  <div id="app">
-    <p class="message">{{ message }}</p>
-  </div>
+<template lang="pug">
+  #app
+    p.message {{ message }}
 </template>
 
 <script>
 export default {
   data: function () {
     return {
-      message: "Hello Vue!"
+      message: "HOME"
     }
   }
 }
 </script>
 
-<style scoped>
+<style>
 .message {
   font-size: 10vw;
   text-align: center;
